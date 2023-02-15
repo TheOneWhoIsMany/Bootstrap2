@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  </head>
+  <body>
+    <h1>Hello, world!</h1>
+<!--    nav  -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFAAAABQCAYAAACOEfKtAAAACXBIWXMAAAsTAAALEwEAmpwYAAAJ60lEQVR4nO1cB4xVRRQ9uyy7Cwi4iGhUUAE1CIIglhhpioLEhggqoqKxR8VOFCkqAlbsgAVrYgM0hKYi9o4N7IqKiKgRFAQEdtlvbnImuZnMm1d+JXkneeHz5k67b+bObbNAihQpUqRIkSJFihQpUmxrKAdwNIBpAL4AsAZApsSfNRyrjLk/gLJiMa83gE9KgCHZPh8D6Flo5l0BoI4D+BnAKADdANSg9FHDsV4PYDnnIHO5vJDMk063AhgHoArbLqoB3ACgnnO6LN8d9uLXEuadEqNeIwDN8jguV3/NY9APJRPr8rmdyykvMlx5YdtEtsQrANYpebOJcvMWAF2RO7Rkf/MB/G31txTArQD2C2njJtZZnK+Dpb+SebL0XWhA2bLWEtQbAPzjEOCLKI+SQj7U/QA2Wu1udPQnK2wGgF0C2qpWMrEf8oBpbFwODBd2APC6GvBCbvOW1iDl9L5DqTy1/PqywuPgKAC/qUPgBQBDALRSNFXsT5j8H2n/8GzT0aSZijzgCzbuWjFNALzH8lWcXBikziQAW1jvKQANI47lNFVPPtTeEersBuBV1hGx0t1B053lsu1zDrNiXKrKA2p7t4nZbk/VtsiqMBzGVVtPWRxHXomIeVqNtbFV3oJlq5EHmK1pozNP5S38nQSHANhMpvhOQS2nZNsngazyzzyHYdA8s0ZQw3fxvcgZG5U8cUVWreSWlXc++TPHM4bhpPmEqylpf73Zzi8O2VtwBn7H9wc6yiY5Tt6JAe3XUNBv9eiM89nG6QHlUfuTbf8jy/ePOM+s4Wq4jLpWfYBqs5J1DqXsyvBdED71HFSCH1i+V0B5nP5eZPkJEeaZE7gabkDZVxdg0pkJyWR68Pevnj7MKXl4QPlfLBeVCVn2N5PlJ0WYZ0G28EGOsomOLTXB08dS0nQJKDd9dQgoj9pfudrCXYvNwFv4/iWHSlHJSa3kSpjgOURqqJ5s9jgoZrCvswPKo/Z3Ptv53nEYFZyBO6ut9TyA7RK2fy3bmOuhOZs0HyWwXAwuUEq4OBFQbAYKDgbwrzKVrvGsNBf68gSWw6iPh64xVQ/p586YSrTY8h+qeYwNoCsKA0Fz6jVFJyvKh6bUxx5RzlnRKcNwBLd5hubjqR4HgR6bGZfoiIM8tEVjIChP6vjsi2AYFcI8tTHNsr7qxM0oGzzIjJTd8AHpxOGAUmXg9qQR29aH30n3OQ+hdgnGI7L2Ih5em9ierOgwb9J5pczAPUmzLITuS9J1ytHYorR3K2muLmUGdiWNeK59eJN0EiLIBcyKFo0gCKNIM76UGdiHNGJR+DCLdD5hHhVlSi3xnfwXk+beUmbgCaQRBvnwkEceldPWPR7AYD4nAzgAQIWDvjnbkjCCD6eT7slSZuBw0jwaQmdMruvUu850zPqyG9ZS7dEe6HYsE9PMh+NINzsH80yEKA2PIM3kELqrlDJsfIFGFzTMmMOV+gjjHctUuSjdw1j3IL4TJdmHXqR7MwfzTISwhtvy6wrNdLrHw1bq42pliC54T0h8Q8qeIH0dmTeA/xdfITx29rmkE0tmnyzmmRi+hrsAWO/YcrKSnqVpdxwHLi71Y5XdO5W/Z9I6CYM4W99mnQct2VZNUXAST93nrZVrnk2e0GVRGDhX2cHfqwid69miwpGrLPOvjk7TRdzCz/GZTbofuFIN/duqL+PNDur3fSruv6qwQMkwcKWyBMyXXUgD/kpmCyy0shTy9cghtIAfaRRtZ1ndgo4MYJmPHXeeWcHX8J8s21G90+FP47QcQl9cJ4YV5RS+mytR5OESbrl3mV3wpbIyZKV9zfLppL0PwBncAXsxLiPqD+iVNtDhyz3Y3k8J5pl3Bu4UQek1frz26r0Jcu+uBPz5lJcVSi1qo+zdfZQzNCjVxIUDVA5MyTDwG5b5PDDZwBXCTIp+HKs4IUqGgW+w7EjrfSW3sn5M2lmV9d72MJfzdB9Ah21DtQobWnUrrXq6zLZeLg3JfykKA6cGJCiKLniJqjtfxY9bMSVNPNkDrTjIUMq6pTyELmE8ZBaVa/kII9Wp+45iYhVNyr85Hls1epB1Lk4wz6zga/gClj0TkERk6gozbJlom1bjSLvAEVyawNwWg/dV22IGasih5MK3KnZcMgxsr5JybHnVUNWVlWTjMfW7h0q3dVkkFcr8A38b68eO1kkKnY2OSv8sLyUGgipGhlZGUga+QDqJ/wZBq0e30zL5SinTB3oYaFb3FE/7RWPgVWrrJWXgqoj+RM1AUAdco2zdVg4GNlHqVp9SZGBLZWn0TMhAExoVsy0OA416Yjw6r9MxoXEly0RJD0LnQjAwKCtAMIY0S9QBUBHCQC3sF0eMqbgYCMY7TF9i6ejs1NURVl/HQjDwGA9NY3XKaZ+gWZnilXElidtu9wzdYy5UexgIpgrrrKwy3hYwalQYiraFDQ5WgW9Rb/ThILqcva30B6mgJyZDL4wdJx5IX6KB6ISuOyKLFQPHq5PXF3TS2kReGdg+gs07nLT1vNm0i9LZZlEJfsihF5oVdjvd9+9wW46gv0/+BRXpM3l9Ypgjb7s13VUj2WdthAjgOZZXJ+cwDa/3GOIaI5SlMJmHSReqOT0j3KtrRNfTMVR6tVLtM+XAlfsw+64jc6I4GRYVgoF3MCMgCoaorIFPc3w7KQitlczbzKheHBRdBto4RHlramlyidsq12jBNJENymEqOTRhaModIuMsGAMbMNYxLmLdRkytqFVu/ccol8pVxmlj5fwcqMytQapfs/VNnW5kwD9K7j5t3VjyoS/rTXPMM28XbZpwwG/FbKMtZZPJJDCWwwoybCwPlqZM2hxMz7KYaLvywLiHoYJv1Mo2z7wEd+/KyMSafF+0MVe9RNiCid7VCdtqQ6Xb5DzrZ6N6v1z9/llZKvr5nXmFcRnXnaFO+50xBHIO4/OT25ga3Wh6ue6eRfn6xhGQ5FkSkO4RBSYa2M5hSfmcDVm7wpdbK+8svo+iKtjooFSNmVR6r2bOjH4upE43jg7ReUqeRrlo6EJX6pJaTq9gm1EuSyZaLcZWvdEqa69+945xO72ZuiC9jmkcJwac0lW8VTRSbev1Mf9Oww2MJYsMt3GzSmDP21/y6MHVUs/cZBtHx8h1NhCZ+rJypJpnA4PgyyjndO5Mhja3HYMJwzM8/OyLOsPYf60VDs0LLlPqwk3Wdm5B+WEu3XTnFo+CvXkCz2XM1mZoLeXldKaJRInU7cxkT6P4l1vjbcSVZ/oypiIKwcQ6pYaM5kpqEXB1y3hWOsVI662kj7EtV0zUaxNnkcHG0Srb/DZVvgM/7Bgl82oZrSsoeiiZuC0/HxVi2wahjCfWVIYgjdOylJ/VVH+mcOxF+9NPKVKkSJEiRYoUKVKkSIFE+B+GrrFty9UWZwAAAABJRU5ErkJggg=="></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Mi Casa</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">The Bad</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            The Good
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">The Ugly</a></li>
+            <li><a class="dropdown-item" href="#">oop</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">yes2</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">bad place</a>
+        </li>
+      </ul>
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Submit</button>
+      </form>
+    </div>
+  </div>
+</nav>
+    
+<!--     end nav -->
+    
+    
+<!--     main section Jumbotron -->
+    <div class="jumbotron" id="jumbo">
+  <h1 class="display-4">Trust Me</h1>
+  <img  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw6bcaA_jdP0vzbrBKPsUYJwo9nIvUZ-IAdA&usqp=CAU" class="img-responsive" alt="Glitchtrap">
+    <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+  </p>
+</div>
+    
+<!--     end main section -->
+    
+    
+<!--     row of cards section -->
+    <div class="row">
+      <div class="card" style="width: 18rem;">
+  <img class="card-img-top" src="https://www.nicepng.com/png/detail/224-2242514_imageok-fnaf-ucn-foxy-parts.png" alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title">Yes</h5>
+    <p class="card-text">IDK</p>
+    <a href="#" class="btn btn-primary">Touch Some Grass Here</a>
+  </div>
+</div>
+      <div class="card" style="width: 18rem;">
+  <img class="card-img-top" src="https://media.tenor.com/vvwOzUTSlfwAAAAi/fnaf-ucn.gif" alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title">Yes</h5>
+    <p class="card-text">IDK</p>
+    <a href="#" class="btn btn-primary">Touch Some Grass Here</a>
+  </div>
+</div>
+      <div class="card" style="width: 18rem;">
+  <img class="card-img-top" src="https://www.pngkit.com/png/detail/186-1864722_38c-fnaf-ucn-freddy-in-hall.png" alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title">Yes</h5>
+    <p class="card-text">IDK</p>
+    <a href="#" class="btn btn-primary">Touch Some Grass Here</a>
+  </div>
+</div>
+    </div>
+<div class="row2">
+  <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block w-100" src="https://play-lh.googleusercontent.com/s700KAjsLI3b39KAyRmQW2laDPBJljNGTgx7mSvea-LArfcjbB06-ANK8oO3X0mcSzo" alt="First slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="https://cdn.cloudflare.steamstatic.com/steam/apps/871720/ss_cffdf58378e26fae3346c0df6ccbc0c03aeaa3b5.1920x1080.jpg?t=1568143255" alt="Second slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="https://cdn.cloudflare.steamstatic.com/steam/apps/871720/ss_0663312e4957c04b7aa714e98533ee1c7e650778.1920x1080.jpg?t=1568143255" alt="Third slide">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+</div>
+  <div class="row3">
+    <button id="row1" >yes</button>
+    <button id="row2">yes2</button>
+    <button id="row3">yes3</button>
+  </div>
+<!--     end row of cards section -->
+    
+    
+    
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+  </body>
+</html>

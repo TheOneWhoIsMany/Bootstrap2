@@ -1,0 +1,25 @@
+img{
+  width:100%;
+  object-fit:contain;
+}
+#jumbo{
+  padding:0;
+}
+.row{
+  display:flex;
+  justify-content:center;
+  justify-content:space-around;
+}
+.row3{
+  display:flex;
+  Justify-content:center;
+  justify-content:space-around;
+}
+#row1{background-color:#ff0000;}
+#row2{background-color:#ffff00;}
+#row3{background-color:#33cc33;}
+.row2{
+  width:40%;
+  display:flex;
+justify-content:center;
+}
